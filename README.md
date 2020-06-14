@@ -9,20 +9,15 @@
 During disasters, FEMA needs to know the exact location of the damaged places. It is crucial to pinpoint a place and evaluate the damage when dispatching the resources. Our PyDisaster project can help to extract GPS location from photos submitted to ___ using AI/ML/edge computing, allowing FEMA to conduct damage assessments in those areas.
 
 ### Required Installations:
-import pandas as pd
-import requests
-#import piexif - Do not need PIEXIF
+Imports: pandas, requests, os, io, json
+from bs4 import BeautifulSoup
 from google.cloud import vision
 from google.cloud.vision import types
 from google.oauth2 import service_account
-import os
-import io
-import json
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 from PIL import Image
 from PIL.ExifTags import TAGS, GPSTAGS
-from bs4 import BeautifulSoup
 
 ### Workflow:
 
