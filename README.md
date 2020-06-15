@@ -1,4 +1,5 @@
 PPT: https://docs.google.com/presentation/d/1PEzfNtC-oqzi42Cj-qO1HbA_cCP9dazl63KE8rOnTIs/edit?usp=sharing
+
 DOC: https://docs.google.com/document/d/16Ck0GBx2EyLGFkO5godrRPBE3OS63noodX6Z0_4m-sE/edit?usp=sharing
 
 # PyDisaster - Problem 8: Crowdsourcing Damage Photos
