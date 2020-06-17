@@ -34,10 +34,10 @@ def form_submit():
     response = str(user_input['UserInput'])
 
     get_exif = master_function.get_exif_data(response)
-    get_gps = master_function.map_search(response)
+    # get_gps = master_function.map_search(response)
 
     # Show html output on page
-    return render_template('results.html', rec1=get_exif, rec2=get_gps) # Corresponds to template docs
+    return render_template('results.html', rec2='File Uploaded!') # Corresponds to template docs
 
 # Run when python script is called (debug=True)
 if __name__ == '__main__':
