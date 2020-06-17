@@ -9,8 +9,6 @@ During disasters, FEMA needs to know the exact location of the damaged places. I
 ### Required Installations:
 Imports: pandas, requests, os, io, json
 
-from bs4 import BeautifulSoup
-
 from google.cloud import vision
 
 from google.cloud.vision import types
