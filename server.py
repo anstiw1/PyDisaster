@@ -34,7 +34,7 @@ def form_submit():
     response = str(user_input['UserInput'])
 
     get_exif = master_function.get_exif_data(response)
-    # get_gps = master_function.map_search(response)
+    get_gps = master_function.map_search(response)
 
     # Show html output on page
     return render_template('results.html', rec2='File Uploaded!') # Corresponds to template docs

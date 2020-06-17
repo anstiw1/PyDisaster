@@ -15,7 +15,6 @@ from werkzeug.utils import secure_filename
 # PIL = Python Image Library
 from PIL import Image
 from PIL.ExifTags import TAGS, GPSTAGS
-from bs4 import BeautifulSoup
 
 #Main function, does not need to be modified anymore!
 #Creates disasters.csv file
