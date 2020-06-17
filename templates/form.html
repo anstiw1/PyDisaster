@@ -1,0 +1,41 @@
+<!--/* Meta section adapted from:
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE) -->
+ <!-- Adapted from Riley's GA lesson: 12.02-lesson-flask-basics -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-16">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>pyDisaster</title>
+
+  <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}"> -->
+
+</head>
+
+<body>
+  <div class="header-img">
+    <div class="header-overlay">
+    <div class="header-text"><h1>pyDisaster</h1></div>
+    <div class="header-text-2">Tiffany Houston, Kemal Alaeddinoglu, <br> Anshul Tiwari, Jason Huang</div>
+    </div>
+  </div>
+  <p class="introduction"><i>pyDisaster can upload disaster photos and find their location.</i>
+</p>
+	<form action="/submit">
+		<p>
+			<h2>
+        <label for="UserInput">Please upload a picture from Assets:</label>
+      </h2>
+      <div class="input-description"><i>Please make sure photos have gps data</i></div>
+      <!-- Learned from: https://www.w3schools.com/tags/tag_textarea.asp -->
+      <textarea type="string" name="UserInput" placeholder="Start filename with 'Assets/...'"></textarea>
+      <!-- Learned from: https://www.w3schools.com/html/html_forms.asp -->
+      <br><input class="sumissionfield" type="submit" value="Submit Photo">
+		</p>
+	</form>
+</body>
+</html>
