@@ -25,6 +25,26 @@ from PIL import Image
 
 from PIL.ExifTags import TAGS, GPSTAGS
 
+### Executive Summary:
+
+Disaster can strike in a moment, and governments need information quickly to begin immediate disbursement of emergency aid, and supplies to affected areas.
+
+
+
+The PyDisaster team is tasked with creating a platform that will extract valuable geo-location information from user pictures. All of the photos have some information attached to them. This information is called EXIF Data. EXIF data contains important information such as GPS coordinates? 
+
+![](Assets/capture1.png)
+
+
+Our platform extracts this information and formats it in a way that allows us to pinpoint the address. EXIF data is delivered differently in iPhone and Android devices. PyDisaster is smart enough to classify these nuances and pull the data accordingly.
+
+![](Assets/capture2.png)
+
+Our solution works on a reliable and globally recognized platform, Google Vision/Google Maps to display the GPS coordinates found.  
+
+![](Assets/capture3.png)
+
+
 ### Workflow Summary:
 We set up a folder that houses images submitted into the Flask App platform then created a function that pulls any existing EXIF data from an image in the folder, creates a dataframe with the GPS data and converts that dataframe into a csv. We're making the assumption that these images will be more commonly taken and submitted via smartphone, so the function was built to accomodate both Iphone and Android software since there is a difference in the way both distribute GPS Location pictures. We then developed a function to index an image from the created dataframe, and submit that information into Google Maps using an API Key to output a 12 mile radius from where the image was originally taken.
 
