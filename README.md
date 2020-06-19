@@ -1,3 +1,5 @@
+DOC: https://docs.google.com/presentation/d/1PEzfNtC-oqzi42Cj-qO1HbA_cCP9dazl63KE8rOnTIs/edit?usp=sharing
+
 # PyDisaster - Problem 8: Crowdsourcing Damage Photos
 
 ### Problem Statement: 
