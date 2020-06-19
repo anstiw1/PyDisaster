@@ -30,19 +30,18 @@ from PIL.ExifTags import TAGS, GPSTAGS
 Disaster can strike in a moment, and governments need information quickly to begin immediate disbursement of emergency aid, and supplies to affected areas.
 
 
-
 The PyDisaster team is tasked with creating a platform that will extract valuable geo-location information from user pictures. All of the photos have some information attached to them. This information is called EXIF Data. EXIF data contains important information such as GPS coordinates? 
 
-![](Assets/capture1.png)
+![](Assets/Capture1.PNG)
 
 
 Our platform extracts this information and formats it in a way that allows us to pinpoint the address. EXIF data is delivered differently in iPhone and Android devices. PyDisaster is smart enough to classify these nuances and pull the data accordingly.
 
-![](Assets/capture2.png)
+![](Assets/Capture2.PNG)
 
 Our solution works on a reliable and globally recognized platform, Google Vision/Google Maps to display the GPS coordinates found.  
 
-![](Assets/capture3.png)
+![](Assets/Capture3.PNG)
 
 
 ### Workflow Summary:
