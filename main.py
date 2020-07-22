@@ -98,7 +98,7 @@ def map_search(x):
 
     # Google Maps API code. Generates .HTML file with google maps location with 'zoom' view.
     gmap=gmplot.GoogleMapPlotter(lat_numbers, long_numbers, zoom)
-    gmap.apikey = 'AIzaSyBdk83hvtYy9kuqhX1dsoBL9BPC_-G8BrM'
+    gmap.apikey = '#Insert Google Streetview/Google Maps API key'
     gmap.draw("../PyDisaster/PyDisaster.html" )
     return print ("Check the map!")
 
